@@ -19,10 +19,30 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
+  mailer:
+    subject: "Account activation"
   success: "Welcome to the Sample App!"
   danger: "User not found"
   inval_login: "Invalid email/password combination"
   error: "error"
+  plslogin: "Please log in."
+  success_update: "Profile updated"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "Displaying <b>1</b> %{entry_name}"
+          other: "Displaying <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Displaying %{entry_name} <b>%{first} - %{last}</b> of <b>%{total}</b> in total"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -43,6 +63,9 @@ en:
       by: "by "
       about: "About"
       contact: "Contact"
+      new: "News"
+      about: "about"
+      contact: "contact"
       new: "News"
   static_pages:
     home:
@@ -78,7 +101,26 @@ en:
       title: "Sign up"
       stt1: "This will be a signup page for new users."
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      confirm: "Confirmation"
+      savechange: "Save changes"
+    index:
+      title: All Users
+      delete: "delete"
+    _user:
+      delete: "delete"
+      sure: "You sure?"
+    destroy:
+      success: "Deleted success"
+      failnish: update, show, delete
   sessions:
     new:
       title: "Log in"
       signup: "Sign up now!"
+  activation:
+    controller: 
+      success: "Account activated!"
+      fail: "Invalid activation link"
+    sessions:
+      not: "Account not activated. Please check your email to activate your account."
