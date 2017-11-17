@@ -6,3 +6,5 @@ password:
   minlength: 6
 size:
   gravartar: 80
+remember_me: 
+  default_check: 1

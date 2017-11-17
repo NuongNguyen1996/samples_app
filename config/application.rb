@@ -5,6 +5,6 @@ require "rails/all"
 Bundler.require(*Rails.groups)
 module SamplesApp
   class Application < Rails::Application
-    config.i18n.default_locale = :vi
+  	config.i18n.default_locale = :en
   end
 end

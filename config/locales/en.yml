@@ -22,6 +22,7 @@ en:
   success: "Welcome to the Sample App!"
   danger: "User not found"
   inval_login: "Invalid email/password combination"
+  error: "error"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -40,8 +41,8 @@ en:
       name: "Michael Hartl"
       the: "The "
       by: "by "
-      about: "about"
-      contact: "contact"
+      about: "About"
+      contact: "Contact"
       new: "News"
   static_pages:
     home:
