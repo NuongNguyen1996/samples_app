@@ -1,0 +1,19 @@
+<footer class="footer">
+  <small>
+    <%= t".the" %><a href="http://www.railstutorial.org/"><%= t".title" %></a>
+    <%= t".by" %><a href="http://www.michaelhartl.com/"><%= t".name" %></a>
+  </small>
+  <nav>
+    <div>
+      <ul>
+        <li><%= link_to t(".about"), about_path %></li>
+        <li><%= link_to t(".contact"), contact_path %></li>
+        <li><a href="http://news.railstutorial.org/"><%= t".new" %></a></li>
+      </ul>
+    </div>
+    <div>
+      <%= link_to image_tag("rails.png", alt: "Rails logo", id:"footer"),
+            "http://rubyonrails.org/" %>
+    </div>
+  </nav>
+</footer>
