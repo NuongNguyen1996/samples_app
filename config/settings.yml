@@ -8,3 +8,4 @@ size:
   gravartar: 80
 remember_me: 
   default_check: 1
+per_page: 5
