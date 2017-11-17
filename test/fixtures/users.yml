@@ -1,0 +1,4 @@
+micheal:
+  name: Nguyen Thi Kieu Nuong
+  email: nuong14pt@gmail.com
+  password_digest: <%= User.digest("password_digest") %>

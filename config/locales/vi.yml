@@ -1,40 +1,20 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-en:
-  success: "Welcome to the Sample App!"
-  danger: "User not found"
-  inval_login: "Invalid email/password combination"
+vi:
+  success: "Chuc mung ban"
+  danger: "Nguoi dung khong tim thay"
+  inval_login: "Email/Password khong hop le"
   layouts:
     application:
-      title: "Ruby on Rails Tutorial Sample App"
+      title: "Ung dung ruby on rails"
     header:
-      title: "Welcome To Sample App"
-      home: "Home"
-      help: "Help"
-      login: "Login"
-      users: "Users"
-      Profile: "Profile"
-      Settings: "Settings"
-      Logout: "Log out"
-      Login: "Log in"
+      title: "Chao ban den voi Sample App"
+      home: "Trang chu"
+      help: "Giup do"
+      login: "Dang nhap"
+      users: "Nguoi dung"
+      Profile: "Thong tin"
+      Settings: "Cai dat"
+      Logout: "Dang xuat"
+      Login: "Dang nhap"
     footer:
       title: "Ruby on Rails Tutorial"
       name: "Michael Hartl"
@@ -45,7 +25,7 @@ en:
       new: "News"
   static_pages:
     home:
-      title: "Home"
+      title: "Trang chu"
       welcome: "Welcome to the Sample App"
       stt2: "This is the home page for the"
       ruby: "Ruby on Rails Tutorial"
