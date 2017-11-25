@@ -2,6 +2,7 @@ vi:
   success: "Chuc mung ban"
   danger: "Nguoi dung khong tim thay"
   inval_login: "Email/Password khong hop le"
+  error: "error"
   layouts:
     application:
       title: "Ung dung ruby on rails"
