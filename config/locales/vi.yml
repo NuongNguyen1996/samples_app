@@ -3,6 +3,8 @@ vi:
   danger: "Nguoi dung khong tim thay"
   inval_login: "Email/Password khong hop le"
   error: "error"
+  plslogin: "Please log in."
+  success_update: "Profile updated"
   layouts:
     application:
       title: "Ung dung ruby on rails"
@@ -58,6 +60,10 @@ vi:
       title: "Sign up"
       stt1: "This will be a signup page for new users."
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      confirm: "Confirmation"
+      savechange: "Save changes"
   sessions:
     new:
       title: "Log in"

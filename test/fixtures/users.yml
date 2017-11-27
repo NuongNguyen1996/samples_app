@@ -2,3 +2,7 @@ micheal:
   name: Nguyen Thi Kieu Nuong
   email: nuong14pt@gmail.com
   password_digest: <%= User.digest("password_digest") %>
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
