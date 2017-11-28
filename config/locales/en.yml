@@ -19,6 +19,7 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
+  info: "Please check your email to activate your account."
   mailer:
     subject: "Account activation"
   success: "Welcome to the Sample App!"
@@ -113,7 +114,7 @@ en:
       sure: "You sure?"
     destroy:
       success: "Deleted success"
-      failnish: update, show, delete
+      failnish: "Deleted fail"
   sessions:
     new:
       title: "Log in"
@@ -124,3 +125,4 @@ en:
       fail: "Invalid activation link"
     sessions:
       not: "Account not activated. Please check your email to activate your account."
+      

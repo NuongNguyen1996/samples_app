@@ -3,7 +3,6 @@ class UsersEditTest < ActionDispatch::IntegrationTest
   def setup
     @user = users(:micheal)
   end
-  
   test "unsuccessful edit" do
     log_in_as(@user)
   	get edit_user_path(@user)
