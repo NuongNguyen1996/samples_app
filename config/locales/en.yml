@@ -19,6 +19,9 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
+  info: "Please check your email to activate your account."
+  mailer:
+    subject: "Account activation"
   success: "Welcome to the Sample App!"
   danger: "User not found"
   inval_login: "Invalid email/password combination"
@@ -116,3 +119,10 @@ en:
     new:
       title: "Log in"
       signup: "Sign up now!"
+  activation:
+    controller: 
+      success: "Account activated!"
+      fail: "Invalid activation link"
+    sessions:
+      not: "Account not activated. Please check your email to activate your account."
+      

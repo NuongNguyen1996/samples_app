@@ -1,7 +1,5 @@
 require "test_helper"
-
 class UsersEditTest < ActionDispatch::IntegrationTest
-
   def setup
     @user = users(:micheal)
   end
@@ -15,7 +13,6 @@ class UsersEditTest < ActionDispatch::IntegrationTest
       password: "foo",
       password_confirmation: "bar"
     }}
-
     assert_template "users/edit"
   end
   test "successful edit" do

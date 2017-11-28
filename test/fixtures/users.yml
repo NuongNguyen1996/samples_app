@@ -2,7 +2,12 @@ micheal:
   name: Nguyen Thi Kieu Nuong
   email: nuong14pt@gmail.com
   password_digest: <%= User.digest("password_digest") %>
+  admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
 archer:
   name: Sterling Archer
   email: duchess@example.gov
   password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
